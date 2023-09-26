@@ -4,6 +4,18 @@
     padding: 0;
     right: auto;
 }
+
+/* Css Destinado Para a navbar*/
+
+header {
+    height: auto;
+  }
+
+nav{
+    height: auto;
+}
+
+
 .navigation{
     position: fixed;
     height: 70px;
@@ -12,12 +24,14 @@
     background-color: #f4f4f4;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
 }
 
 .navigation h1{
     position: fixed;
     top: 0;
     left: 0;
+    height: fit-content;
     margin: 15px;
     font-size: 35px;
     font-family: Arial;
@@ -41,6 +55,7 @@ ul {
 }
 
 li {
+    
     display: inline-block;
     margin-left: 5px;
     width: 90px;
@@ -96,10 +111,10 @@ li a{
     -webkit-text-fill-color: transparent;
   }
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
+.dropdown{
+    height: auto;
+}
+  
   
   .dropdown-content {
     display: none;
@@ -130,3 +145,35 @@ li a{
     background-color: #3e8e41;
   }
 
+/*Css destinado para a main*/
+
+main{
+    padding-top: 70px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://i.pinimg.com/originals/47/06/34/470634da81098cd49f91a67e813e3b94.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .intro h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .intro p {
+    font-size: 20px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
