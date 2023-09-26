@@ -157,23 +157,27 @@ main{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 520px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://i.pinimg.com/originals/47/06/34/470634da81098cd49f91a67e813e3b94.jpg");
+    height: 700px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("Cachorro.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  .intro h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    color: #fff;
+.intro h1 {
+    font-family: sans-serif;
+    font-size: 100px;
     font-weight: bold;
     margin: 0;
-  }
+    transition: 0.5s;
+    color: #fff;
+    padding: 100px;
+}
   
-  .intro p {
-    font-size: 20px;
-    color: #d1d1d1;
-    text-transform: uppercase;
-    margin: 20px 0;
-  }
+.intro p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 35px;
+   color: #d1d1d1;
+   text-transform: uppercase;
+   margin: 20px 0;
+   padding: 0px 0px 300px;
+}
