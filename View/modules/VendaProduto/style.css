@@ -11,9 +11,6 @@
     justify-content: space-around;
 }
 
-a{
-    text-decoration: none;
-}
 .parent-Link{
     font-size: 1rem;
     display: flex;
@@ -124,6 +121,9 @@ input:focus{
     padding: 0 10rem;
 }
 
+a{
+    text-decoration: none;
+}
 
 button{
     display: flex;

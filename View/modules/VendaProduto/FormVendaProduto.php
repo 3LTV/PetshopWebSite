@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Produto</title>
+    <title>Document</title>
     <style>
         <?php 
             require('style.css')
@@ -19,7 +19,7 @@
                 </a>
             </div>
             <div class="parent-link">
-                <a href="/produto/venda" class="social-links">Vendas Produto</a>
+                <a href="/produto/cadastro" class="social-links">Cadastro Produto</a>
                 <a href="" class="social-links">Cadastrar</a>
                 <a href="" class="social-links">Serviços</a>
             </div>

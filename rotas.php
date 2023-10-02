@@ -7,4 +7,12 @@ switch($uri_parse)
     case '/':
         include 'View/modules/Home/Home.php';
     break;
+
+    case '/produto/venda':
+        include 'View/modules/VendaProduto/FormVendaProduto.php';
+    break;
+
+    case '/produto/cadastro':
+        include 'View/modules/CadastroProduto/FormCadastroProduto.php';
+    break;
 }

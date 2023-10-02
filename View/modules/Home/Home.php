@@ -16,8 +16,8 @@
                         <div class="dropdown">
                             <button class="dropbtn">Produto</button>
                             <div class="dropdown-content">
-                                <a href="#">Cadastrar Produto</a>
-                                <a href="#">Vendas Produto</a>
+                                <a href="/produto/cadastro">Cadastrar Produto</a>
+                                <a href="/produto/venda">Vendas Produto</a>
                             </div>
                         </div>
                     </li>
@@ -33,7 +33,7 @@
         <div class="box">
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="View/module/Home/script.js"></script>
     
 </body>
 </html>
