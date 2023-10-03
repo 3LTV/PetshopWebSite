@@ -26,35 +26,15 @@
         </nav>
     </header>
     <div class="form">
-        <form action="" class="sub-form">
-            <h2>Cadastrar Produto</h2>
-            <div class="upper-form">
-                <div class="control-group">
-                    <label>Nome do Produto:</label> <br>
-                    <input type="text" name="NomeProduto"> <br>
+            <form action="" class="sub-form">
+                <h2>Imagem</h2>
+                <div class="texto">
+                    <p>Nome:</p>
+                    <p>Preço:</p>
+                    <p>Fornecedor:</p>
+                    <p>Descrição:</p>
                 </div>
-                <div class="control-group">
-                    <label>Fornecedor:</label>
-                    <input type="text" name="FornecedorProduto"> <br>
-                </div>
-                <div class="control-group">
-                    <label>Preço:</label> <br>
-                    <input type="number" name="PrecoProduto"> <br>
-                </div>
-                <div class="control-group">
-                    <label>Imagem:</label> <br>
-                    <input type="image" name="ImagemProduto"> <br>
-                </div>
-                <div class="control-group">
-                <label>Descrição:</label> <br>
-                <input type="text"name="descricaoProduto"> <br>
-                </div>
-                
-                <div class="btn">
-                    <button type="submit">Cadastrar</button> <br>
-                </div>
-            </div>
-        </form>
+            </form> 
     </div>
     <link rel="stylesheet" href="script.js">
 </body>

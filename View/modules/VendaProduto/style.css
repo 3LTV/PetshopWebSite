@@ -11,6 +11,10 @@
     justify-content: space-around;
 }
 
+a{
+    text-decoration: none;
+}
+
 .parent-Link{
     font-size: 1rem;
     display: flex;
@@ -71,16 +75,19 @@ body{
 
 .form{
     display: flex;
-    justify-content: center;
+    align-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 3rem;
 }
 
 .sub-form{
+    margin: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60vw;
-    height: 50vh;
+    width: 15vw;
+    height: 25vh;
     border-radius: 12px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
         rgba(0, 0, 0, 0.3) 0px 8px 6px -8px;
@@ -92,56 +99,7 @@ h2{
     margin: 1.5rem 0 2rem 0;
 }
 
-
-label{
-    padding-left: 16px;
-    opacity: 0.75;
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-input{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 50px;
-    border-style: none;
-    outline: none;
-    margin-top: 8px;
-    padding: 12px 24px;
-    width: 250px;
-    background-color: #EAEEED;
-}
-
-input:focus{
-    opacity: 0.7;
-}
-
-.control-group{
-    width: 50%;
-    float: left;
-    padding: 0 10rem;
-}
-
-a{
-    text-decoration: none;
-}
-
-button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 12px 48px;
-    border-radius: 50px;
-    color: #fff;
-    margin-bottom: 0rem;
-    margin-left: 15rem;
-    cursor: pointer;
-    outline: none;
-    border-width: 0;
-    background-color: #1A1B27;
-    font-weight: 600;
-    width: 70vh;
-}
-
-.button:hover{
-    opacity: 0.8;
-}

@@ -22,7 +22,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="">Cadastro</a>
+                        <a href="">Cliente</a>
                     </li>
                     <li><a href="">Serviços</a></li>
                 </ul>
@@ -33,7 +33,7 @@
         <div class="box">
         </div>
     </main>
-    <script src="View/module/Home/script.js"></script>
+    <script src="../../../View/modules/Home/script.js"></script>
     
 </body>
 </html>
