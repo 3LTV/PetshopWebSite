@@ -9,10 +9,10 @@ switch($uri_parse)
     break;
 
     case '/produto/venda':
-        include 'View/modules/VendaProduto/FormVendaProduto.php';
+        include 'View/modules/Produto/VendaProduto/FormVendaProduto.php';
     break;
 
     case '/produto/cadastro':
-        include 'View/modules/CadastroProduto/FormCadastroProduto.php';
+        include 'View/modules/Produto/CadastroProduto/FormCadastroProduto.php';
     break;
 }

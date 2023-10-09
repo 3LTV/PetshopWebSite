@@ -20,7 +20,7 @@
             </div>
             <div class="parent-link">
                 <a href="/produto/venda" class="social-links">Vendas Produto</a>
-                <a href="" class="social-links">Cadastrar</a>
+                <a href="" class="social-links">Cliente</a>
                 <a href="" class="social-links">Serviços</a>
             </div>
         </nav>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="control-group">
                     <label>Imagem:</label> <br>
-                    <input type="image" name="ImagemProduto"> <br>
+                    <input type="file"  name="ImagemProduto"> <br>
                 </div>
                 <div class="control-group">
                 <label>Descrição:</label> <br>
