@@ -20,8 +20,8 @@
             </div>
             <div class="parent-link">
                 <a href="/produto/venda" class="social-links">Vendas Produto</a>
-                <a href="" class="social-links">Cliente</a>
-                <a href="" class="social-links">Serviços</a>
+                <a href="/produto/cliente" class="social-links">Cliente</a>
+                <a href="/produto/servico" class="social-links">Serviços</a>
             </div>
         </nav>
     </header>

@@ -15,4 +15,12 @@ switch($uri_parse)
     case '/produto/cadastro':
         include 'View/modules/Produto/CadastroProduto/FormCadastroProduto.php';
     break;
+
+    case '/produto/cliente':
+        include 'View/modules/Cliente/ClienteCadastro.php';
+    break;
+
+    case '/produto/servico':
+        include 'View/modules/Servicos/Servico.php';
+    break;
 }

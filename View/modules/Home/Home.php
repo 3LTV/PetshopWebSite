@@ -22,9 +22,9 @@
                         </div>
                     </li>
                     <li>
-                        <a href="">Cliente</a>
+                        <a href="/produto/cliente">Cliente</a>
                     </li>
-                    <li><a href="">Serviços</a></li>
+                    <li><a href="/produto/servico">Serviços</a></li>
                 </ul>
             </div>
         </nav>

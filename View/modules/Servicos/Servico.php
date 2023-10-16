@@ -11,7 +11,20 @@
     </style>
 </head>
 <body>
-    
+    <header>
+        <nav class="container">
+            <div class="PetShop-Box">
+                <a href="/">
+                    <h1 class="Logo">Petshop</h1>
+                </a>
+            </div>
+            <div class="parent-link">
+                <a href="/produto/cadastro" class="social-links">Cadastro Produto</a>
+                <a href="/produto/venda" class="social-links">Vendas Produto</a>
+                <a href="/produto/cliente" class="social-links">Cliente</a>
+            </div>
+        </nav>
+    </header>
     <script src="../Servicos/script.js"></script>
 </body>
 </html>
