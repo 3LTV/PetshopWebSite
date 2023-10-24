@@ -120,8 +120,7 @@ label{
  }
 
 .control-group{
-    width: 50%;
-    float: left;
+    margin: 10px 0px;
     padding: 0 10rem;
 }
 
@@ -163,8 +162,3 @@ input:focus{
     justify-content: center;
 
 }
-
-.lbl_doenca{
-    word-break: keep-all;
-}
-  
