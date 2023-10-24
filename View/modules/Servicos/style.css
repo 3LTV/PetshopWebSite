@@ -5,6 +5,7 @@
 }
 
 
+
 /*CSS para a NavBar*/
 .container{
     display: flex;
@@ -70,6 +71,10 @@ body{
     background-repeat: no-repeat;
 }
 
+label{
+    opacity: 0.75;
+}
+
 .form{
     display: flex;
     justify-content: center;
@@ -81,11 +86,15 @@ body{
     flex-direction: column;
     align-items: center;
     width: 60vw;
-    height: 60vh;
+    height: 75vh;
     border-radius: 12px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
         rgba(0, 0, 0, 0.3) 0px 8px 6px -8px;
     background-color: #fff;
+}
+
+.Title{
+    line-height: 2
 }
 
 .form-top{
@@ -93,6 +102,69 @@ body{
    align-items: center;
 }
 
-.control-group{
+.form-control{
     margin: 1rem;
+    
 }
+
+.line-1 {
+    height: 0.5px;
+    width: 110vh;
+    background: black;
+  }
+
+.form-mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+.control-group{
+    width: 50%;
+    float: left;
+    padding: 0 10rem;
+}
+
+input{
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    padding: 12px 24px;
+    background-color: #EAEEED;
+}
+
+input:focus{
+    opacity: 0.7;
+}
+
+.preco{
+    color: green;
+    font-family: Arial;
+    font-weight: Bold;
+    padding: 0 8vh;
+}
+
+.form-bottom{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.checks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20vh;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.lbl_doenca{
+    word-break: keep-all;
+}
+  
